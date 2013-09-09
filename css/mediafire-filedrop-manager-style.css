@@ -1,0 +1,19 @@
+#mediafire-filedrop-icon {
+	background: transparent url( '../images/icon-32.png' ) no-repeat;
+}
+
+p.bhww-readable-text,
+ol.bhww-readable-text,
+ul.bhww-readable-text {
+	font-size: 14px; 
+	line-height: 1.57em;
+}
+
+.filedrop-container {
+	margin: 40px 0 0;
+	overflow: hidden;
+}
+
+.toplevel_page_mediafire-filedrop-manager iframe {
+	height: auto;
+}
