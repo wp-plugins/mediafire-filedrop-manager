@@ -4,7 +4,7 @@ Donate link: http://blackhillswebworks.com/donate
 Tags: MediaFire, FileDrops, upload files
 Requires at least: 3.3
 Tested up to: 3.6
-Stable tag: 0.1
+Stable tag: 0.2
 License: GPLv2 or later
 
 Add up to five MediaFire FileDrops to your WordPress admin
@@ -50,5 +50,8 @@ I use MediaFire FileDrops for many of my website/mangaged hosting clients, and I
 
 == Changelog ==
 
+= 0.2 =
+* Added help page: "Linking to Your Files"
+
 = 0.1 =
-Initial release
+* Initial release

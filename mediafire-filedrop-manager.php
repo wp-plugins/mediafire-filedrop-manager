@@ -4,7 +4,7 @@
  * Plugin Name: MediaFire FileDrop Manager
  * Plugin URI: http://blackhillswebworks.com/wordpress-plugins/mediafire-filedrop-manager
  * Description: Adds a WordPress admin top-level menu item for easy access to your MediaFire FileDrops
- * Version: 0.1
+ * Version: 0.2
  * Author: John Sundberg
  * Author URI: http://blackhillswebworks.com
  * License: GPLv2 or later
@@ -27,19 +27,6 @@
 	along with this program; if not, write to the Free Software
 	Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 */
-
-
-
-/**
- * Load the other files as needed
- */
-	
-	if ( is_admin() ) {
-				
-		// Settings page
-		include_once( 'includes/mediafire-filedrop-manager-settings.php' );
-
-	}
 	
 	
 	
@@ -85,7 +72,7 @@
 		$page = add_menu_page( 'MediaFire FileDrop Manager', 'FileDrops', 'upload_files', 'mediafire-filedrop-manager', 'bhww_mediafire_filedrop_display_page', plugins_url( 'mediafire-filedrop-manager/images/icon-16.png' ) );
 		
 		// Use registered $page handle to hook stylesheet loading
-		add_action( 'admin_print_styles-' . $page, 'bhww_mediafire_filedrop_admin_styles' );
+		add_action( 'admin_print_styles-' . $page , 'bhww_mediafire_filedrop_admin_styles' );
 		
 	}
 	
@@ -242,4 +229,20 @@
 		
 		<?php
 		
+	}
+	
+	
+	
+/**
+ * Load the other files as needed
+ */
+	
+	if ( is_admin() ) {
+				
+		// Settings page
+		include_once( 'includes/mediafire-filedrop-manager-settings.php' );
+		
+		// Help page
+		include_once( 'includes/mediafire-filedrop-manager-help.php' );
+
 	}
