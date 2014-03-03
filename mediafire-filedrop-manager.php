@@ -4,7 +4,7 @@
  * Plugin Name: MediaFire FileDrop Manager
  * Plugin URI: http://blackhillswebworks.com/wordpress-plugins/mediafire-filedrop-manager
  * Description: Adds a WordPress admin top-level menu item for easy access to your MediaFire FileDrops
- * Version: 0.2
+ * Version: 0.3
  * Author: John Sundberg
  * Author URI: http://blackhillswebworks.com
  * License: GPLv2 or later

@@ -2,9 +2,9 @@
 Contributors: bhwebworks
 Donate link: http://blackhillswebworks.com/donate
 Tags: MediaFire, FileDrops, upload files
-Requires at least: 3.3
-Tested up to: 3.7.1
-Stable tag: 0.2
+Requires at least: 3.5
+Tested up to: 3.8.1
+Stable tag: 0.3
 License: GPLv2 or later
 
 Add up to five MediaFire FileDrops to your WordPress admin
@@ -49,6 +49,10 @@ I use MediaFire FileDrops for many of my website/mangaged hosting clients, and I
 2. MediaFire FileDrop Manager plugin settings page in WordPress admin
 
 == Changelog ==
+
+= 0.3 =
+* Updated help page to conform to MediaFire changes
+* Updated WordPress compatibility version
 
 = 0.2 =
 * Added help page: "Linking to Your Files"

@@ -67,8 +67,10 @@
 					<li>Scroll or navigate through the files listed in the FileDrop until you find the file that you want to link to on your website.</li>
 					<li>Hover your mouse pointer over the file and a button should appear on the far right side of the file listing, next to the modified date.</li>
 					<li>Click on this button to open an actions menu.</li>
-					<li>Click on <strong>Share</strong> and then click the <strong>Copy Link</strong> button next to the <strong>Download</strong> link.</li>
+					<li>Click on <strong>Share</strong> and then click the <strong>More sharing options...</strong> link.</li>
+					<li>Click the <strong>More</strong> tab if necessary, and then click the <strong>Copy Link</strong> button next to the <strong>Download Link</strong> text box.</li>
 					<li>A message should appear that says "Copied to Clipboard."</li>
+					<li>Alternatively, you can select and copy the download link in the <strong>Download Link</strong> text box.</li>
 					<li>Now go to your post, page, or other content and paste the link into your content like you normally would in WordPress.</li>
 					<li>The critical thing for this to work is to make sure that the actual file name and type are part of the download link, such as in the following example:</li>
 				</ol>
