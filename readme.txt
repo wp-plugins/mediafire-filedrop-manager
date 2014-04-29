@@ -3,7 +3,7 @@ Contributors: bhwebworks
 Donate link: http://blackhillswebworks.com/donate
 Tags: MediaFire, FileDrops, upload files
 Requires at least: 3.3
-Tested up to: 3.7.1
+Tested up to: 3.9
 Stable tag: 0.2
 License: GPLv2 or later
 
