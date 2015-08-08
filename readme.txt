@@ -2,8 +2,8 @@
 Contributors: bhwebworks
 Donate link: http://blackhillswebworks.com/donate
 Tags: MediaFire, FileDrops, upload files
-Requires at least: 3.5
-Tested up to: 4.0
+Requires at least: 3.6
+Tested up to: 4.2
 Stable tag: 0.3
 License: GPLv2 or later
 
